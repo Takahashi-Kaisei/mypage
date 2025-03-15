@@ -39,7 +39,7 @@ const SpeakerDeckThumbnail: React.FC<SpeakerDeckThumbnailProps> = ({ url, title 
           setThumbnailData(mockData);
           setLoading(false);
         }, 500);
-      } catch (err) {
+      } catch {
         setError("サムネイルの読み込みに失敗しました");
         setLoading(false);
       }
