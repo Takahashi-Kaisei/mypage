@@ -26,7 +26,7 @@ const SpeakerDeckEmbed: React.FC<SpeakerDeckEmbedProps> = ({ url }) => {
           setEmbedHtml(mockHtml);
           setLoading(false);
         }, 500);
-      } catch (err) {
+      } catch {
         setError("埋め込みコンテンツの読み込みに失敗しました");
         setLoading(false);
       }
