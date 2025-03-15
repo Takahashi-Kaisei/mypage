@@ -2,8 +2,8 @@ import { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "ポートフォリオサイト",
-  description: "記事と経歴をまとめたポートフォリオサイト",
+  title: "かいせのまとめサイト",
+  description: "作成資料をまとめる．&自分についてもまとめる．",
 };
 
 export default function RootLayout({

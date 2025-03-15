@@ -7,9 +7,9 @@ export default function Home() {
     <RootLayout>
       <div className="max-w-4xl mx-auto">
         <div className="mb-8">
-          <h1 className="text-3xl font-bold mb-2">記事一覧</h1>
+          <h1 className="text-3xl font-bold mb-2">作成資料</h1>
           <p className="text-gray-600">
-            SpeakerDeckで公開したプレゼンテーションや記事をまとめています。
+            自分が作成した資料をまとめていく.
           </p>
         </div>
 
