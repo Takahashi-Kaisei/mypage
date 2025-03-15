@@ -5,7 +5,7 @@ export default function ProfilePage() {
     <RootLayout>
       <div className="max-w-4xl mx-auto">
         <div className="mb-8">
-          <h1 className="text-3xl font-bold mb-2">Profile</h1>
+          <h1 className="text-3xl font-bold mb-2">プロフィール</h1>
           <p className="text-gray-600">
             経歴，学歴，スキルセットなど
           </p>
