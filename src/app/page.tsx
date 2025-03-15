@@ -1,7 +1,6 @@
 import RootLayout from "@/components/layout/RootLayout";
 import SpeakerDeckThumbnail from "@/components/speakerdeck/SpeakerDeckThumbnail";
 import { articles } from "@/data/articles";
-import Link from "next/link";
 
 export default function Home() {
   return (
