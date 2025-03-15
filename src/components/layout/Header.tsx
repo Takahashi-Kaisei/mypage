@@ -16,13 +16,13 @@ const Header = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <Link href="/" className="text-2xl font-bold text-blue-600">
-            ポートフォリオ
+            かいせのまとめサイト
           </Link>
 
           {/* デスクトップナビゲーション */}
           <nav className="hidden md:flex space-x-8">
             <Link href="/" className="text-gray-700 hover:text-blue-600 font-medium">
-              記事一覧
+              作成資料
             </Link>
             <Link href="/profile" className="text-gray-700 hover:text-blue-600 font-medium">
               プロフィール
@@ -47,7 +47,7 @@ const Header = () => {
               className="block text-gray-700 hover:text-blue-600 font-medium"
               onClick={() => setIsMenuOpen(false)}
             >
-              記事一覧
+              作成資料
             </Link>
             <Link
               href="/profile"
