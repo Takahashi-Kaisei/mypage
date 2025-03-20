@@ -6,9 +6,14 @@ import { ExternalLink } from "lucide-react";
 interface SpeakerDeckThumbnailProps {
   url: string;
   title?: string;
+  thumbnailUrl?: string;
 }
 
-const SpeakerDeckThumbnail: React.FC<SpeakerDeckThumbnailProps> = ({ url, title }) => {
+const SpeakerDeckThumbnail: React.FC<SpeakerDeckThumbnailProps> = ({
+  url,
+  title,
+  thumbnailUrl
+}) => {
   const [thumbnailData, setThumbnailData] = useState<{
     thumbnail_url?: string;
     title?: string;
@@ -21,6 +26,16 @@ const SpeakerDeckThumbnail: React.FC<SpeakerDeckThumbnailProps> = ({ url, title 
     const fetchOEmbed = async () => {
       try {
         setLoading(true);
+        // カスタムサムネイルURLが指定されている場合はそれを優先的に使用
+        if (thumbnailUrl) {
+          setThumbnailData({
+            thumbnail_url: thumbnailUrl,
+            title: title || "Implementing Linear Regression",
+          });
+          setLoading(false);
+          return;
+        }
+
         // クライアントサイドでの直接APIコールはCORSの問題があるため、
         // 実際の実装ではサーバーサイドAPIルートを使用することを推奨
         // ここではモックデータを使用
@@ -45,7 +60,7 @@ const SpeakerDeckThumbnail: React.FC<SpeakerDeckThumbnailProps> = ({ url, title 
     };
 
     fetchOEmbed();
-  }, [url, title]);
+  }, [url, title, thumbnailUrl]);
 
   if (loading) {
     return (

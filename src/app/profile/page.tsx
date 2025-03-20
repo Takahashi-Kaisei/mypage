@@ -108,13 +108,15 @@ export default function ProfilePage() {
                   <span className="text-sm text-gray-500">2023年12月 - 現在</span>
                 </div>
                 <p className="text-gray-700">
-                武蔵野大学 Boh PJより発足した，機械学習の理論を学ぶ為のプロジェクト．scikit-learnに実装されている機械学習モデルを1から実装し，資料を作成することで機械学習モデルへの理解を深める．
+                  武蔵野大学 Boh PJより発足した，機械学習の理論を学ぶ為のプロジェクト．scikit-learnに実装されている機械学習モデルを1から実装し，資料を作成することで機械学習モデルへの理解を深める．
                 </p>
                 <p className="text-gray-700">
-                担当モデル
+                  担当モデル
                 </p>
-                <li>Linear Regression</li>
-                <li>Logistic Regression</li>
+                <ul className="list-disc list-inside text-gray-700 ml-4 mb-2">
+                  <li>Linear Regression</li>
+                  <li>Logistic Regression</li>
+                </ul>
                 <p className="text-gray-700">
                   <a href="https://citrine-nemophila-f1d.notion.site/scikit-learn-0-Project-e250fa4e2206458682ce9015e9a29e79" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">scikit-learnを0から作ろうProject詳細</a>
                 </p>
@@ -151,7 +153,8 @@ export default function ProfilePage() {
                   <span className="text-sm text-gray-500">2024年3月</span>
                 </div>
                 <p className="text-gray-700">
-                【アイフルグループ】第9回大学生向けハッカソン『aihack（アイハック）』にて優秀賞(2位)を受賞した．</p>
+                  【アイフルグループ】第9回大学生向けハッカソン『aihack（アイハック）』にて優秀賞(2位)を受賞した．
+                </p>
                 <p className="text-gray-700">実施テーマ : 「アイフルの予測モデルの精度を最大化せよ．顧客データを用いたスコアリングモデルの構築」</p>
                 <p className="text-gray-700">
                   <a href="https://www.aiful.co.jp/group/ir/data/current/nr20240410.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">第9回大学生向けハッカソン『aihack（アイハック）』詳細</a>
@@ -164,12 +167,13 @@ export default function ProfilePage() {
                   <span className="text-sm text-gray-500">2024年2月</span>
                 </div>
                 <p className="text-gray-700">
-                「MLBレギュラーシーズンのデータから見る今後の戦術トレンドや重要指標」</p>
+                  「MLBレギュラーシーズンのデータから見る今後の戦術トレンドや重要指標」
+                </p>
                 <p className="text-gray-700">武蔵野大学データサイエンス学部が実施する実践型授業の成果発表会にて，自分が所属するゼミの先生から学科賞をいただいた．</p>
                 <p className="text-gray-700">
-                  <a href="https://www.musashino-u.ac.jp/academics/faculty/data_science/data_science/features.html" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">未来創造PJ詳細</a></p>
+                  <a href="https://www.musashino-u.ac.jp/academics/faculty/data_science/data_science/features.html" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">未来創造PJ詳細</a>
+                </p>
               </div>
-
             </div>
           </div>
         </div>
