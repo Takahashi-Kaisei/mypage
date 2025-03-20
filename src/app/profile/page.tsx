@@ -30,8 +30,8 @@ export default function ProfilePage() {
               <div>
                 <h3 className="text-lg font-semibold mb-2">Contact</h3>
                 <p className="text-gray-700">email : s2322037@stu.musashino-u.ac.jp</p>
-                <p className="text-gray-700">X : <a href="https://x.com/kai_ds04" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">https://x.com/kai_ds04</a>kai_ds04</p>
-                <p className="text-gray-700">Github : <a href="https://github.com/Takahashi-Kaisei" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">https://github.com/Takahashi-Kaisei</a>Kaise</p>
+                <p className="text-gray-700">X : <a href="https://x.com/kai_ds04" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">kai_ds04</a></p>
+                <p className="text-gray-700">Github : <a href="https://github.com/Takahashi-Kaisei" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Kaise</a></p>
               </div>
             </div>
           </div>
@@ -128,7 +128,7 @@ export default function ProfilePage() {
                 <p className="text-gray-600 mb-1">「野球における,試合状況を考慮した守備指標 Defensive Value per Play の提案」</p>
                 <p className="text-gray-700">これまで野球における守備指標は，UZRなどの守備技術のみを定量的に測る指標が多く使われていた．しかし，これらの指標は，大差な状況と僅差な状況を同じように扱っている．そこで，試合状況を考慮し，定量的に守備を評価する指標を提案した．</p>
                 <p className="text-gray-700">
-                  <a href="https://drive.google.com/file/d/10UC_ujvf77Og2g7u3oClofsOEkan-a4S/view" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">2024年度 スポーツデータサイエンスコンペティション報告書(私の資料はPB7ページにございます．)</a>
+                  <a href="https://drive.google.com/file/d/10UC_ujvf77Og2g7u3oClofsOEkan-a4S/view" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">2024年度 スポーツデータサイエンスコンペティション報告書(私の資料はP87ページにございます．)</a>
                 </p>
               </div>
 
