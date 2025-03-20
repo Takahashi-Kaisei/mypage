@@ -59,7 +59,7 @@ export default function ProfilePage() {
                 <h3 className="text-lg font-semibold mb-2">Data science</h3>
                 <ul className="list-disc list-inside text-gray-700 space-y-1">
                   <li>機械学習</li>
-                  <li>可視化</li>
+                  <li>ビジュアライゼーション</li>
                   <li>LLM</li>
                   <li>生成モデル</li>
                 </ul>
