@@ -167,7 +167,7 @@ export default function ProfilePage() {
                 「MLBレギュラーシーズンのデータから見る今後の戦術トレンドや重要指標」</p>
                 <p className="text-gray-700">武蔵野大学データサイエンス学部が実施する実践型授業の成果発表会にて，自分が所属するゼミの先生から学科賞をいただいた．</p>
                 <p className="text-gray-700">
-                  <a href="https://www.musashino-u.ac.jp/academics/faculty/data_science/data_science/features.html" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">https://www.musashino-u.ac.jp/academics/faculty/data_science/data_science/features.html</a>未来創造PJ詳細</p>
+                  <a href="https://www.musashino-u.ac.jp/academics/faculty/data_science/data_science/features.html" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">未来創造PJ詳細</a></p>
               </div>
 
             </div>
