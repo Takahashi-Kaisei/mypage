@@ -30,8 +30,8 @@ export default function ProfilePage() {
               <div>
                 <h3 className="text-lg font-semibold mb-2">Contact</h3>
                 <p className="text-gray-700">email : s2322037@stu.musashino-u.ac.jp</p>
-                <p className="text-gray-700">X : <a href="https://x.com/kai_ds04" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">https://x.com/kai_ds04</a></p>
-                <p className="text-gray-700">Github : <a href="https://github.com/Takahashi-Kaisei" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">https://github.com/Takahashi-Kaisei</a></p>
+                <p className="text-gray-700">X : <a href="https://x.com/kai_ds04" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">https://x.com/kai_ds04</a>kai_ds04</p>
+                <p className="text-gray-700">Github : <a href="https://github.com/Takahashi-Kaisei" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">https://github.com/Takahashi-Kaisei</a>Kaise</p>
               </div>
             </div>
           </div>
@@ -59,7 +59,6 @@ export default function ProfilePage() {
                 <h3 className="text-lg font-semibold mb-2">Data science</h3>
                 <ul className="list-disc list-inside text-gray-700 space-y-1">
                   <li>機械学習</li>
-                  <li>統計</li>
                   <li>可視化</li>
                   <li>LLM</li>
                   <li>生成モデル</li>
@@ -82,7 +81,7 @@ export default function ProfilePage() {
             <div className="space-y-6">
               <div>
                 <div className="flex justify-between items-start mb-1">
-                  <h3 className="text-lg font-semibold">スポーツデータ分析会社</h3>
+                  <h3 className="text-lg font-semibold">某スポーツデータ分析会社</h3>
                   <span className="text-sm text-gray-500">2024年4月 - 現在</span>
                 </div>
                 <p className="text-gray-700">
@@ -98,8 +97,8 @@ export default function ProfilePage() {
                 <p className="text-gray-700">
                   東京大学の松尾，岩澤研究室が開講する生成モデル講座にて，生成モデルの理論と実装を広く学習している．
                 </p>
-                <p className="text-gray-700">松尾研生成モデル講座HP：
-                  <a href="https://weblab.t.u-tokyo.ac.jp/lecture/course-list/deep-generative-model/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">https://weblab.t.u-tokyo.ac.jp/lecture/course-list/deep-generative-model/</a>
+                <p className="text-gray-700">
+                  <a href="https://weblab.t.u-tokyo.ac.jp/lecture/course-list/deep-generative-model/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">松尾研生成モデル講座HP</a>
                 </p>
               </div>
 
@@ -116,8 +115,8 @@ export default function ProfilePage() {
                 </p>
                 <li>Linear Regression</li>
                 <li>Logistic Regression</li>
-                <p className="text-gray-700">scikit-learnを0から作ろうProject詳細：
-                  <a href="https://citrine-nemophila-f1d.notion.site/scikit-learn-0-Project-e250fa4e2206458682ce9015e9a29e79" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">https://citrine-nemophila-f1d.notion.site/scikit-learn-0-Project-e250fa4e2206458682ce9015e9a29e79</a>
+                <p className="text-gray-700">
+                  <a href="https://citrine-nemophila-f1d.notion.site/scikit-learn-0-Project-e250fa4e2206458682ce9015e9a29e79" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">scikit-learnを0から作ろうProject詳細</a>
                 </p>
               </div>
 
@@ -128,8 +127,8 @@ export default function ProfilePage() {
                 </div>
                 <p className="text-gray-600 mb-1">「野球における,試合状況を考慮した守備指標 Defensive Value per Play の提案」</p>
                 <p className="text-gray-700">これまで野球における守備指標は，UZRなどの守備技術のみを定量的に測る指標が多く使われていた．しかし，これらの指標は，大差な状況と僅差な状況を同じように扱っている．そこで，試合状況を考慮し，定量的に守備を評価する指標を提案した．</p>
-                <p className="text-gray-700">2024年度 スポーツデータサイエンスコンペティション報告書(私の資料はPB7ページにございます．)：
-                  <a href="https://drive.google.com/file/d/10UC_ujvf77Og2g7u3oClofsOEkan-a4S/view" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">https://drive.google.com/file/d/10UC_ujvf77Og2g7u3oClofsOEkan-a4S/view</a>
+                <p className="text-gray-700">
+                  <a href="https://drive.google.com/file/d/10UC_ujvf77Og2g7u3oClofsOEkan-a4S/view" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">2024年度 スポーツデータサイエンスコンペティション報告書(私の資料はPB7ページにございます．)</a>
                 </p>
               </div>
 
@@ -141,8 +140,8 @@ export default function ProfilePage() {
                 <p className="text-gray-700">
                   東京大学の松尾，岩澤研究室が開講するLLM講座にて，大規模言語モデルの理論と実装を広く学習した．
                 </p>
-                <p className="text-gray-700">松尾研LLM講座HP：
-                  <a href="https://weblab.t.u-tokyo.ac.jp/lecture/course-list/large-language-model/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">https://weblab.t.u-tokyo.ac.jp/lecture/course-list/large-language-model/</a>
+                <p className="text-gray-700">
+                  <a href="https://weblab.t.u-tokyo.ac.jp/lecture/course-list/large-language-model/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">松尾研LLM講座HP</a>
                 </p>
               </div>
 
@@ -155,7 +154,7 @@ export default function ProfilePage() {
                 【アイフルグループ】第9回大学生向けハッカソン『aihack（アイハック）』にて優秀賞(2位)を受賞した．</p>
                 <p className="text-gray-700">実施テーマ : 「アイフルの予測モデルの精度を最大化せよ．顧客データを用いたスコアリングモデルの構築」</p>
                 <p className="text-gray-700">
-                  <a href="https://www.aiful.co.jp/group/ir/data/current/nr20240410.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">https://www.aiful.co.jp/group/ir/data/current/nr20240410.pdf</a>
+                  <a href="https://www.aiful.co.jp/group/ir/data/current/nr20240410.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">第9回大学生向けハッカソン『aihack（アイハック）』詳細</a>
                 </p>
               </div>
 
@@ -167,7 +166,8 @@ export default function ProfilePage() {
                 <p className="text-gray-700">
                 「MLBレギュラーシーズンのデータから見る今後の戦術トレンドや重要指標」</p>
                 <p className="text-gray-700">武蔵野大学データサイエンス学部が実施する実践型授業の成果発表会にて，自分が所属するゼミの先生から学科賞をいただいた．</p>
-                <p className="text-gray-700">未来創造PJ自体の詳細 : <a href="https://www.musashino-u.ac.jp/academics/faculty/data_science/data_science/features.html" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">https://www.musashino-u.ac.jp/academics/faculty/data_science/data_science/features.html</a></p>
+                <p className="text-gray-700">
+                  <a href="https://www.musashino-u.ac.jp/academics/faculty/data_science/data_science/features.html" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">https://www.musashino-u.ac.jp/academics/faculty/data_science/data_science/features.html</a>未来創造PJ詳細</p>
               </div>
 
             </div>
@@ -185,7 +185,7 @@ export default function ProfilePage() {
                 </div>
                 <p className="text-gray-600 mb-1">データサイエンス学部 データサイエンス学科</p>
                 <p className="text-gray-700">
-                  データサイエンスの基礎から実践まで幅広く学習。機械学習，統計，データベース，ビジュアライゼーションなど．
+                  データサイエンスの基礎から実践まで幅広く学習．機械学習，統計，データベース，ビジュアライゼーションなど．
                 </p>
               </div>
               <div>
