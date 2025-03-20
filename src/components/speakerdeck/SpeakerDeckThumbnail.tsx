@@ -34,7 +34,6 @@ const SpeakerDeckThumbnail: React.FC<SpeakerDeckThumbnailProps> = ({ url, title 
           const mockData = {
             thumbnail_url: "https://speakerd.s3.amazonaws.com/presentations/sample/slide_0.jpg",
             title: title || "Implementing Linear Regression",
-            author_name: "発表者",
           };
           setThumbnailData(mockData);
           setLoading(false);
