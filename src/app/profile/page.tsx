@@ -98,7 +98,7 @@ export default function ProfilePage() {
                 <p className="text-gray-700">
                   東京大学の松尾，岩澤研究室が開講する生成モデル講座にて，生成モデルの理論と実装を広く学習している．
                 </p>
-                <p className="text-gray-700">
+                <p className="text-gray-700">松尾研生成モデル講座HP：
                   <a href="https://weblab.t.u-tokyo.ac.jp/lecture/course-list/deep-generative-model/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">https://weblab.t.u-tokyo.ac.jp/lecture/course-list/deep-generative-model/</a>
                 </p>
               </div>
@@ -116,7 +116,7 @@ export default function ProfilePage() {
                 </p>
                 <li>Linear Regression</li>
                 <li>Logistic Regression</li>
-                <p className="text-gray-700">
+                <p className="text-gray-700">scikit-learnを0から作ろうProject詳細：
                   <a href="https://citrine-nemophila-f1d.notion.site/scikit-learn-0-Project-e250fa4e2206458682ce9015e9a29e79" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">https://citrine-nemophila-f1d.notion.site/scikit-learn-0-Project-e250fa4e2206458682ce9015e9a29e79</a>
                 </p>
               </div>
@@ -128,7 +128,9 @@ export default function ProfilePage() {
                 </div>
                 <p className="text-gray-600 mb-1">「野球における,試合状況を考慮した守備指標 Defensive Value per Play の提案」</p>
                 <p className="text-gray-700">これまで野球における守備指標は，UZRなどの守備技術のみを定量的に測る指標が多く使われていた．しかし，これらの指標は，大差な状況と僅差な状況を同じように扱っている．そこで，試合状況を考慮し，定量的に守備を評価する指標を提案した．</p>
-                <p className="text-gray-700"><a href="https://drive.google.com/file/d/10UC_ujvf77Og2g7u3oClofsOEkan-a4S/view" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">https://drive.google.com/file/d/10UC_ujvf77Og2g7u3oClofsOEkan-a4S/view</a> P87</p>
+                <p className="text-gray-700">2024年度 スポーツデータサイエンスコンペティション報告書(私の資料はPB7ページにございます．)：
+                  <a href="https://drive.google.com/file/d/10UC_ujvf77Og2g7u3oClofsOEkan-a4S/view" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">https://drive.google.com/file/d/10UC_ujvf77Og2g7u3oClofsOEkan-a4S/view</a>
+                </p>
               </div>
 
               <div>
@@ -139,7 +141,7 @@ export default function ProfilePage() {
                 <p className="text-gray-700">
                   東京大学の松尾，岩澤研究室が開講するLLM講座にて，大規模言語モデルの理論と実装を広く学習した．
                 </p>
-                <p className="text-gray-700">
+                <p className="text-gray-700">松尾研LLM講座HP：
                   <a href="https://weblab.t.u-tokyo.ac.jp/lecture/course-list/large-language-model/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">https://weblab.t.u-tokyo.ac.jp/lecture/course-list/large-language-model/</a>
                 </p>
               </div>
