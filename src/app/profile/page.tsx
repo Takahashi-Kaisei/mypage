@@ -7,7 +7,7 @@ export default function ProfilePage() {
         <div className="mb-8">
           <h1 className="text-3xl font-bold mb-2">プロフィール</h1>
           <p className="text-gray-600">
-            経歴，学歴，スキルセットなど~最終更新：2025年3月30日~
+            経歴，学歴，スキルセットなど ~最終更新：2025年4月1日~
           </p>
         </div>
 
@@ -25,7 +25,7 @@ export default function ProfilePage() {
               </div>
               <div>
                 <h3 className="text-lg font-semibold mb-2">Affiliation</h3>
-                <p className="text-gray-700">武蔵野大学 データサイエンス学部 データサイエンス学科 B2</p>
+                <p className="text-gray-700">武蔵野大学 データサイエンス学部 データサイエンス学科 B3</p>
               </div>
               <div>
                 <h3 className="text-lg font-semibold mb-2">Contact</h3>
