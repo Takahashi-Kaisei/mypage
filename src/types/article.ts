@@ -3,6 +3,7 @@ export interface Article {
   title: string;
   description: string;
   speakerdeckUrl: string;
+  thumbnail_image: string;
   tags: string[];
   date: string;
 }
