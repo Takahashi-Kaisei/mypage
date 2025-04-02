@@ -19,6 +19,7 @@ export default function Home() {
               <SpeakerDeckThumbnail
                 url={article.speakerdeckUrl}
                 title={article.title}
+                thumbnail_image={article.thumbnail_image}
               />
               <div className="mt-2">
                 <div className="flex flex-wrap gap-2 mb-2">
