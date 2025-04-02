@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import type { FC } from "react";
 import { ExternalLink } from "lucide-react";
 
 interface SpeakerDeckThumbnailProps {
@@ -9,7 +9,7 @@ interface SpeakerDeckThumbnailProps {
   thumbnail_image: string;
 }
 
-const SpeakerDeckThumbnail: React.FC<SpeakerDeckThumbnailProps> = ({
+const SpeakerDeckThumbnail: FC<SpeakerDeckThumbnailProps> = ({
   url,
   title,
   thumbnail_image
