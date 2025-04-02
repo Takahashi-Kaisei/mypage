@@ -21,23 +21,17 @@ const SpeakerDeckThumbnail: React.FC<SpeakerDeckThumbnailProps> = ({ url, title 
     const fetchOEmbed = async () => {
       try {
         setLoading(true);
-        // クライアントサイドでの直接APIコールはCORSの問題があるため、
-        // 実際の実装ではサーバーサイドAPIルートを使用することを推奨
-        // ここではモックデータを使用
-
-        // 実際の実装例:
-        // const response = await fetch(`/api/speakerdeck-oembed?url=${encodeURIComponent(url)}`);
-        // const data = await response.json();
-
-        // モックデータ（デモ用）
-        setTimeout(() => {
-          const mockData = {
-            thumbnail_url: "https://speakerd.s3.amazonaws.com/presentations/sample/slide_0.jpg",
-            title: title || "Implementing Linear Regression",
-          };
-          setThumbnailData(mockData);
-          setLoading(false);
-        }, 500);
+        const response = await fetch(`/api/speakerdeck-oembed?url=${encodeURIComponent(url)}`);
+        if (!response.ok) {
+          throw new Error('Failed to fetch thumbnail data');
+        }
+        const data = await response.json();
+        setThumbnailData({
+          thumbnail_url: data.thumbnail_url,
+          title: title || data.title,
+          author_name: data.author_name
+        });
+        setLoading(false);
       } catch {
         setError("サムネイルの読み込みに失敗しました");
         setLoading(false);
