@@ -25,7 +25,7 @@ export default function ProfilePage() {
               </div>
               <div>
                 <h3 className="text-lg font-semibold mb-2">Affiliation</h3>
-                <p className="text-gray-700">武蔵野大学 データサイエンス学部 データサイエンス学科 B3</p>
+                <p className="text-gray-700">武蔵野大学 データサイエンス学部 B3</p>
               </div>
               <div>
                 <h3 className="text-lg font-semibold mb-2">Contact</h3>
