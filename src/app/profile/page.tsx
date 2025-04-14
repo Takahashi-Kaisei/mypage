@@ -29,6 +29,7 @@ export default function ProfilePage() {
               </div>
               <div>
                 <h3 className="text-lg font-semibold mb-2">Contact</h3>
+                <p className="text-gray-700">就活用email : kaisei22037@gmail.com</p>
                 <p className="text-gray-700">X : <a href="https://x.com/kai_ds04" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">kai_ds04</a></p>
                 <p className="text-gray-700">Github : <a href="https://github.com/Takahashi-Kaisei" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Kaise</a></p>
               </div>
