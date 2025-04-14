@@ -91,8 +91,8 @@ export default function ProfilePage() {
 
               <div>
                 <div className="flex justify-between items-start mb-1">
-                  <h3 className="text-lg font-semibold">深層生成モデル Deep Learning 応用講座 2025|Spring 受講</h3>
-                  <span className="text-sm text-gray-500">2025年2月 - 現在</span>
+                  <h3 className="text-lg font-semibold">深層生成モデル Deep Learning 応用講座 2025|Spring 修了</h3>
+                  <span className="text-sm text-gray-500">2025年2月 - 2025年4月</span>
                 </div>
                 <p className="text-gray-700">
                   東京大学の松尾，岩澤研究室が開講する生成モデル講座にて，生成モデルの理論と実装を広く学習している．
