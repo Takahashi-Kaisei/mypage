@@ -113,8 +113,8 @@ export default function ProfilePage() {
                 <p className="text-gray-700">
                 担当モデル
                 </p>
-                <li>Linear Regression</li>
-                <li>Logistic Regression</li>
+                <p>Linear Regression</p>
+                <p>Logistic Regression</p>
                 <p className="text-gray-700">
                   <a href="https://citrine-nemophila-f1d.notion.site/scikit-learn-0-Project-e250fa4e2206458682ce9015e9a29e79" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">scikit-learnを0から作ろうProject詳細</a>
                 </p>
@@ -154,7 +154,7 @@ export default function ProfilePage() {
                 【アイフルグループ】第9回大学生向けハッカソン『aihack（アイハック）』にて優秀賞(2位)を受賞した．</p>
                 <p className="text-gray-700">実施テーマ : 「アイフルの予測モデルの精度を最大化せよ．顧客データを用いたスコアリングモデルの構築」</p>
                 <p className="text-gray-700">
-                  <a href="https://www.aiful.co.jp/group/ir/data/current/nr20240410.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">第9回大学生向けハッカソン『aihack（アイハック）』詳細</a>
+                  <a href="https://www.aiful.co.jp/group/ir/pdf/nr20240410.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">第9回大学生向けハッカソン『aihack（アイハック）』詳細</a>
                 </p>
               </div>
 
