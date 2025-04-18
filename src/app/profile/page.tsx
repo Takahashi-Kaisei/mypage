@@ -113,8 +113,10 @@ export default function ProfilePage() {
                 <p className="text-gray-700">
                 担当モデル
                 </p>
-                <p>Linear Regression</p>
-                <p>Logistic Regression</p>
+                <ul className="list-disc list-inside text-gray-700 space-y-1">
+                  <li>Linear Regression</li>
+                  <li>Logistic Regression</li>
+                </ul>
                 <p className="text-gray-700">
                   <a href="https://citrine-nemophila-f1d.notion.site/scikit-learn-0-Project-e250fa4e2206458682ce9015e9a29e79" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">scikit-learnを0から作ろうProject詳細</a>
                 </p>
