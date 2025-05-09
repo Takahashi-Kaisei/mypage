@@ -13,22 +13,22 @@ export default function ProfilePage() {
 
         <div className="bg-white shadow rounded-lg overflow-hidden mb-8">
           <div className="p-6">
-            <h2 className="text-2xl font-bold mb-4">Personal Information</h2>
+            <h2 className="text-2xl font-bold mb-4">自己紹介</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
-                <h3 className="text-lg font-semibold mb-2">Name</h3>
+                <h3 className="text-lg font-semibold mb-2">名前</h3>
                 <p className="text-gray-700">高橋 快成</p>
               </div>
               <div>
-                <h3 className="text-lg font-semibold mb-2">About me</h3>
-                <p className="text-gray-700">データサイエンティスト / スポーツデータサイエンティスト</p>
+                <h3 className="text-lg font-semibold mb-2">志望</h3>
+                <p className="text-gray-700">データサイエンティスト / スポーツデータサイエンティスト / MLエンジニア</p>
               </div>
               <div>
-                <h3 className="text-lg font-semibold mb-2">Affiliation</h3>
+                <h3 className="text-lg font-semibold mb-2">所属</h3>
                 <p className="text-gray-700">武蔵野大学 データサイエンス学部 B3</p>
               </div>
               <div>
-                <h3 className="text-lg font-semibold mb-2">Contact</h3>
+                <h3 className="text-lg font-semibold mb-2">連絡</h3>
                 <p className="text-gray-700">就活用email : kaisei22037@gmail.com</p>
                 <p className="text-gray-700">X : <a href="https://x.com/kai_ds04" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">kai_ds04</a></p>
                 <p className="text-gray-700">Github : <a href="https://github.com/Takahashi-Kaisei" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Kaise</a></p>
@@ -39,16 +39,16 @@ export default function ProfilePage() {
 
         <div className="bg-white shadow rounded-lg overflow-hidden mb-8">
           <div className="p-6">
-            <h2 className="text-2xl font-bold mb-4">Skill</h2>
+            <h2 className="text-2xl font-bold mb-4">スキル</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
-                <h3 className="text-lg font-semibold mb-2">Programming language</h3>
+                <h3 className="text-lg font-semibold mb-2">プログラミング言語</h3>
                 <ul className="list-disc list-inside text-gray-700 space-y-1">
                   <li>Python</li>
                 </ul>
               </div>
               <div>
-                <h3 className="text-lg font-semibold mb-2">Framework・Library</h3>
+                <h3 className="text-lg font-semibold mb-2">フレームワーク・ライブラリ</h3>
                 <ul className="list-disc list-inside text-gray-700 space-y-1">
                   <li>PyTorch</li>
                   <li>scikit-learn</li>
@@ -56,7 +56,7 @@ export default function ProfilePage() {
                 </ul>
               </div>
               <div>
-                <h3 className="text-lg font-semibold mb-2">Data science</h3>
+                <h3 className="text-lg font-semibold mb-2">データサイエンス</h3>
                 <ul className="list-disc list-inside text-gray-700 space-y-1">
                   <li>機械学習</li>
                   <li>ビジュアライゼーション</li>
@@ -65,7 +65,7 @@ export default function ProfilePage() {
                 </ul>
               </div>
               <div>
-                <h3 className="text-lg font-semibold mb-2">Others</h3>
+                <h3 className="text-lg font-semibold mb-2">その他</h3>
                 <ul className="list-disc list-inside text-gray-700 space-y-1">
                   <li>Git / GitHub</li>
                   <li>Docker</li>
@@ -77,7 +77,7 @@ export default function ProfilePage() {
 
         <div className="bg-white shadow rounded-lg overflow-hidden mb-8">
           <div className="p-6">
-            <h2 className="text-2xl font-bold mb-4">Career</h2>
+            <h2 className="text-2xl font-bold mb-4">経歴</h2>
             <div className="space-y-6">
               <div>
                 <div className="flex justify-between items-start mb-1">
@@ -86,19 +86,6 @@ export default function ProfilePage() {
                 </div>
                 <p className="text-gray-700">
                   データ抽出，加工，分析，機械学習モデルの開発を行う．
-                </p>
-              </div>
-
-              <div>
-                <div className="flex justify-between items-start mb-1">
-                  <h3 className="text-lg font-semibold">深層生成モデル Deep Learning 応用講座 2025|Spring 修了</h3>
-                  <span className="text-sm text-gray-500">2025年2月 - 2025年4月</span>
-                </div>
-                <p className="text-gray-700">
-                  東京大学の松尾，岩澤研究室が開講する生成モデル講座にて，生成モデルの理論と実装を広く学習している．
-                </p>
-                <p className="text-gray-700">
-                  <a href="https://weblab.t.u-tokyo.ac.jp/lecture/course-list/deep-generative-model/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">松尾研生成モデル講座HP</a>
                 </p>
               </div>
 
@@ -119,6 +106,19 @@ export default function ProfilePage() {
                 </ul>
                 <p className="text-gray-700">
                   <a href="https://citrine-nemophila-f1d.notion.site/scikit-learn-0-Project-e250fa4e2206458682ce9015e9a29e79" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">scikit-learnを0から作ろうProject詳細</a>
+                </p>
+              </div>
+
+              <div>
+                <div className="flex justify-between items-start mb-1">
+                  <h3 className="text-lg font-semibold">深層生成モデル Deep Learning 応用講座 2025|Spring 修了</h3>
+                  <span className="text-sm text-gray-500">2025年2月 - 2025年4月</span>
+                </div>
+                <p className="text-gray-700">
+                  東京大学の松尾，岩澤研究室が開講する生成モデル講座にて，生成モデルの理論と実装を広く学習している．
+                </p>
+                <p className="text-gray-700">
+                  <a href="https://weblab.t.u-tokyo.ac.jp/lecture/course-list/deep-generative-model/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">松尾研生成モデル講座HP</a>
                 </p>
               </div>
 
@@ -178,7 +178,7 @@ export default function ProfilePage() {
 
         <div className="bg-white shadow rounded-lg overflow-hidden">
           <div className="p-6">
-            <h2 className="text-2xl font-bold mb-4">Academic background</h2>
+            <h2 className="text-2xl font-bold mb-4">学歴</h2>
             <div className="space-y-6">
               <div>
                 <div className="flex justify-between items-start mb-1">
