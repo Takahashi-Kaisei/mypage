@@ -7,11 +7,11 @@ export default function ProfilePage() {
         <div className="mb-8">
           <h1 className="text-3xl font-bold mb-2">プロフィール</h1>
           <p className="text-gray-600">
-            経歴，学歴，スキルセットなど ~最終更新：2025年4月1日~
+            経歴，学歴，スキルセットなど ~最終更新：2025年5月9日~
           </p>
         </div>
 
-        <div className="bg-white shadow rounded-lg overflow-hidden mb-8">
+        <div className="bg-black shadow rounded-lg overflow-hidden mb-8">
           <div className="p-6">
             <h2 className="text-2xl font-bold mb-4">自己紹介</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -37,7 +37,7 @@ export default function ProfilePage() {
           </div>
         </div>
 
-        <div className="bg-white shadow rounded-lg overflow-hidden mb-8">
+        <div className="bg-black shadow rounded-lg overflow-hidden mb-8">
           <div className="p-6">
             <h2 className="text-2xl font-bold mb-4">スキル</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -75,7 +75,7 @@ export default function ProfilePage() {
           </div>
         </div>
 
-        <div className="bg-white shadow rounded-lg overflow-hidden mb-8">
+        <div className="bg-black shadow rounded-lg overflow-hidden mb-8">
           <div className="p-6">
             <h2 className="text-2xl font-bold mb-4">経歴</h2>
             <div className="space-y-6">
@@ -176,7 +176,7 @@ export default function ProfilePage() {
           </div>
         </div>
 
-        <div className="bg-white shadow rounded-lg overflow-hidden">
+        <div className="bg-black shadow rounded-lg overflow-hidden">
           <div className="p-6">
             <h2 className="text-2xl font-bold mb-4">学歴</h2>
             <div className="space-y-6">
