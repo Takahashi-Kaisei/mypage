@@ -20,19 +20,19 @@ const SpeakerDeckThumbnail: FC<SpeakerDeckThumbnailProps> = ({
       href={url}
       target="_blank"
       rel="noopener noreferrer"
-      className="block border rounded-lg overflow-hidden hover:shadow-lg transition-shadow duration-300"
+      className="block border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden hover:shadow-lg dark:hover:shadow-gray-800 transition-shadow duration-300"
     >
-      <div className="relative aspect-video bg-gray-100">
+      <div className="relative aspect-video bg-gray-100 dark:bg-gray-800">
         <div
           className="w-full h-full bg-cover bg-center"
           style={{ backgroundImage: `url(${thumbnail_image})` }}
         />
       </div>
-      <div className="p-4 bg-white">
-        <h3 className="font-medium text-lg mb-1 line-clamp-2">
+      <div className="p-4 bg-white dark:bg-gray-900">
+        <h3 className="font-medium text-lg mb-1 line-clamp-2 text-gray-900 dark:text-gray-100">
           {title}
         </h3>
-        <div className="mt-2 flex items-center text-blue-600 text-sm">
+        <div className="mt-2 flex items-center text-blue-600 dark:text-blue-400 text-sm">
           <ExternalLink size={14} className="mr-1" />
           <span>SpeakerDeckで見る</span>
         </div>
