@@ -6,7 +6,7 @@ export default function ProfilePage() {
       <div className="max-w-4xl mx-auto">
         <div className="mb-8">
           <h1 className="text-3xl font-bold mb-2">プロフィール</h1>
-          <p className="text-gray-600">
+          <p className="text-gray-700 dark:text-gray-300">
             経歴，学歴，スキルセットなど ~最終更新：2025年5月9日~
           </p>
         </div>
