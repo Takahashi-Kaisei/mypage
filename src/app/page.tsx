@@ -8,7 +8,7 @@ export default function Home() {
       <div className="max-w-4xl mx-auto">
         <div className="mb-8">
           <h1 className="text-3xl font-bold mb-2">作成資料</h1>
-          <p className="text-gray-600">
+          <p className="text-gray-700 dark:text-gray-300">
             自分が作成した資料をまとめていく.
           </p>
         </div>
@@ -32,7 +32,7 @@ export default function Home() {
                     </span>
                   ))}
                 </div>
-                <p className="text-sm text-gray-500">{article.date}</p>
+                <p className="text-sm text-gray-700 dark:text-gray-300">{article.date}</p>
               </div>
             </div>
           ))}
