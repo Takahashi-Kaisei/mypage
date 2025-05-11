@@ -185,7 +185,7 @@ export default function ProfilePage() {
                 <h3 className="text-lg font-semibold">武蔵野大学</h3>
                 <span className="text-sm text-gray-700 dark:text-gray-300">2023年4月 - 現在</span>
               </div>
-              <p className="text-gray-600 mb-1">データサイエンス学部 データサイエンス学科</p>
+              <p className="text-gray-700 dark:text-gray-300 mb-1">データサイエンス学部 データサイエンス学科</p>
               <p className="text-gray-700 dark:text-gray-300">
                 データサイエンスの基礎から実践まで幅広く学習．機械学習，統計，データベース，ビジュアライゼーションなど．
               </p>
@@ -195,7 +195,7 @@ export default function ProfilePage() {
                 <h3 className="text-lg font-semibold">千葉県立成東高等学校</h3>
                 <span className="text-sm text-gray-700 dark:text-gray-300">2020年4月 - 2023年3月</span>
               </div>
-              <p className="text-gray-600 mb-1">普通科</p>
+              <p className="text-gray-700 dark:text-gray-300 mb-1">普通科</p>
               <p className="text-gray-700 dark:text-gray-300">
                 野球部に所属．
               </p>
