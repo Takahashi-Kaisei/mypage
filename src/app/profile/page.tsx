@@ -149,6 +149,14 @@ export default function ProfilePage() {
 
             <div>
               <div className="flex justify-between items-start mb-1">
+                <h3 className="text-lg font-semibold">5期生向けLT会 主催</h3>
+                <span className="text-sm text-gray-700 dark:text-gray-300">2024年3月29~31日</span>
+              </div>
+              <p className="text-gray-700 dark:text-gray-300">発表者11人16テーマで，自分の好きなテーマについて発表するLT会を主催した．</p>
+            </div>
+
+            <div>
+              <div className="flex justify-between items-start mb-1">
                 <h3 className="text-lg font-semibold">第9回大学生向けハッカソン『aihack（アイハック）』 優秀賞</h3>
                 <span className="text-sm text-gray-700 dark:text-gray-300">2024年3月</span>
               </div>
