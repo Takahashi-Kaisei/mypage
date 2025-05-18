@@ -27,62 +27,76 @@ export default function ProfilePage() {
             経歴，学歴，スキルセットなど ~最終更新：2025年5月11日~
           </p>
         </div>
+
         <div className="p-6">
             <h2 className="text-2xl font-bold">自己紹介</h2>
-        </div>
-        <div>
-          <h3 className="text-lg font-semibold mb-2">名前</h3>
-          <p className="text-gray-700 dark:text-gray-300">高橋 快成</p>
-        </div>
-        <div>
-          <h3 className="text-lg font-semibold mb-2">志望</h3>
-          <p className="text-gray-700 dark:text-gray-300">データサイエンティスト / スポーツデータサイエンティスト / MLエンジニア</p>
-        </div>
-        <div>
-          <h3 className="text-lg font-semibold mb-2">所属</h3>
-          <p className="text-gray-700 dark:text-gray-300">武蔵野大学 データサイエンス学部 B3</p>
-        </div>
-        <div>
-          <h3 className="text-lg font-semibold mb-2">連絡</h3>
-          <p className="text-gray-700 dark:text-gray-300">就活用email : kaisei22037@gmail.com</p>
-          <p className="text-gray-700 dark:text-gray-300">X : <a href="https://x.com/kai_ds04" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">kai_ds04</a></p>
-          <p className="text-gray-700 dark:text-gray-300">Github : <a href="https://github.com/Takahashi-Kaisei" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Kaise</a></p>
+          </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div>
+                <h3 className="text-lg font-semibold mb-2">名前</h3>
+                <p className="text-gray-700 dark:text-gray-300">高橋 快成</p>
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold mb-2">志望</h3>
+                <p className="text-gray-700 dark:text-gray-300">データサイエンティスト / スポーツデータサイエンティスト / MLエンジニア</p>
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold mb-2">所属</h3>
+                <p className="text-gray-700 dark:text-gray-300">武蔵野大学 データサイエンス学部 B3</p>
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold mb-2">連絡</h3>
+                <p className="text-gray-700 dark:text-gray-300">就活用email : kaisei22037@gmail.com</p>
+                <p className="text-gray-700 dark:text-gray-300">X : <a href="https://x.com/kai_ds04" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">kai_ds04</a></p>
+                <p className="text-gray-700 dark:text-gray-300">Github : <a href="https://github.com/Takahashi-Kaisei" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Kaise</a></p>
+              </div>
+            </div>
         </div>
 
-
-      <div className="p-6">
-        <h2 className="text-2xl font-bold">スキル</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6"></div>
-          <div>
-            <h3 className="text-lg font-semibold mb-2">プログラミング言語</h3>
-            <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-1">
-              <li>Python</li>
-            </ul>
+        <div className="p-6">
+          <div className="flex justify-between items-center mb-4">
+            <h2 className="text-2xl font-bold">スキル</h2>
+            <button
+              onClick={() => toggleSection('skills')}
+              className="px-3 py-1 text-sm font-medium text-gray-700 bg-gray-200 rounded hover:bg-gray-300 dark:text-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600"
+            >
+              {openSections.skills ? '閉じる' : '開く'}
+            </button>
           </div>
-          <div>
-            <h3 className="text-lg font-semibold mb-2">フレームワーク・ライブラリ</h3>
-            <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-1">
-              <li>PyTorch</li>
-              <li>scikit-learn</li>
-              <li>pandas / NumPy</li>
-            </ul>
-          </div>
-          <div>
-            <h3 className="text-lg font-semibold mb-2">データサイエンス</h3>
-            <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-1">
-              <li>機械学習</li>
-              <li>ビジュアライゼーション</li>
-              <li>LLM</li>
-              <li>生成モデル</li>
-            </ul>
-          </div>
-          <div>
-            <h3 className="text-lg font-semibold mb-2">その他</h3>
-            <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-1">
-              <li>Git / GitHub</li>
-              <li>Docker</li>
-            </ul>
-          </div>
+          {openSections.skills && (
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div>
+                <h3 className="text-lg font-semibold mb-2">プログラミング言語</h3>
+                <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-1">
+                  <li>Python</li>
+                </ul>
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold mb-2">フレームワーク・ライブラリ</h3>
+                <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-1">
+                  <li>PyTorch</li>
+                  <li>scikit-learn</li>
+                  <li>pandas / NumPy</li>
+                </ul>
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold mb-2">データサイエンス</h3>
+                <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-1">
+                  <li>機械学習</li>
+                  <li>ビジュアライゼーション</li>
+                  <li>LLM</li>
+                  <li>生成モデル</li>
+                </ul>
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold mb-2">その他</h3>
+                <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-1">
+                  <li>Git / GitHub</li>
+                  <li>Docker</li>
+                </ul>
+              </div>
+            </div>
+          )}
         </div>
 
         <div className="p-6">
@@ -208,7 +222,7 @@ export default function ProfilePage() {
             <button
               onClick={() => toggleSection('education')}
               className="px-3 py-1 text-sm font-medium text-gray-700 bg-gray-200 rounded hover:bg-gray-300 dark:text-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600"
-              >
+            >
               {openSections.education ? '閉じる' : '開く'}
             </button>
           </div>
