@@ -52,37 +52,38 @@ export default function ProfilePage() {
 
       <div className="p-6">
         <h2 className="text-2xl font-bold">スキル</h2>
-        <div>
-          <h3 className="text-lg font-semibold mb-2">プログラミング言語</h3>
-          <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-1">
-            <li>Python</li>
-          </ul>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6"></div>
+          <div>
+            <h3 className="text-lg font-semibold mb-2">プログラミング言語</h3>
+            <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-1">
+              <li>Python</li>
+            </ul>
+          </div>
+          <div>
+            <h3 className="text-lg font-semibold mb-2">フレームワーク・ライブラリ</h3>
+            <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-1">
+              <li>PyTorch</li>
+              <li>scikit-learn</li>
+              <li>pandas / NumPy</li>
+            </ul>
+          </div>
+          <div>
+            <h3 className="text-lg font-semibold mb-2">データサイエンス</h3>
+            <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-1">
+              <li>機械学習</li>
+              <li>ビジュアライゼーション</li>
+              <li>LLM</li>
+              <li>生成モデル</li>
+            </ul>
+          </div>
+          <div>
+            <h3 className="text-lg font-semibold mb-2">その他</h3>
+            <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-1">
+              <li>Git / GitHub</li>
+              <li>Docker</li>
+            </ul>
+          </div>
         </div>
-        <div>
-          <h3 className="text-lg font-semibold mb-2">フレームワーク・ライブラリ</h3>
-          <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-1">
-            <li>PyTorch</li>
-            <li>scikit-learn</li>
-            <li>pandas / NumPy</li>
-          </ul>
-        </div>
-        <div>
-          <h3 className="text-lg font-semibold mb-2">データサイエンス</h3>
-          <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-1">
-            <li>機械学習</li>
-            <li>ビジュアライゼーション</li>
-            <li>LLM</li>
-            <li>生成モデル</li>
-          </ul>
-        </div>
-        <div>
-          <h3 className="text-lg font-semibold mb-2">その他</h3>
-          <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-1">
-            <li>Git / GitHub</li>
-            <li>Docker</li>
-          </ul>
-        </div>
-      </div>
 
         <div className="p-6">
           <div className="flex justify-between items-center mb-4">
