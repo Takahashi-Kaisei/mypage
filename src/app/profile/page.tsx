@@ -48,7 +48,6 @@ export default function ProfilePage() {
           <p className="text-gray-700 dark:text-gray-300">X : <a href="https://x.com/kai_ds04" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">kai_ds04</a></p>
           <p className="text-gray-700 dark:text-gray-300">Github : <a href="https://github.com/Takahashi-Kaisei" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Kaise</a></p>
         </div>
-      </div>
 
 
       <div className="p-6">
@@ -208,7 +207,7 @@ export default function ProfilePage() {
             <button
               onClick={() => toggleSection('education')}
               className="px-3 py-1 text-sm font-medium text-gray-700 bg-gray-200 rounded hover:bg-gray-300 dark:text-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600"
-            >
+              >
               {openSections.education ? '閉じる' : '開く'}
             </button>
           </div>
