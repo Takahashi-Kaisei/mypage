@@ -111,7 +111,7 @@ export default function ProfilePage() {
                     onClick={() => toggleSection('career_1')}
                     className="px-3 py-1 text-sm font-medium text-gray-700 bg-gray-200 rounded hover:bg-gray-300 dark:text-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600"
                     >
-                      {openSections.career_1 ? '閉じる' : '開く'}
+                      {openSections.career_1 ? 'しまう' : '詳細'}
                     </button>
                   </div>
                 </div>
@@ -119,7 +119,13 @@ export default function ProfilePage() {
                   データ抽出，加工，分析，機械学習モデルの開発を行う．
                 </p>
                 {openSections.career_1 && (
-                  <li>開けた</li>
+                  <div>
+                    <li className="flex items-start">SQLを用いて，データベースからのデータ抽出を行う．</li>
+                    <li className="flex items-start">pythonを用いて，データ加工，分析，機械学習モデルの開発を行う．</li>
+                      <li className="flex items-start ml-6">大規模なデータベースからの効率的なデータの抽出と，整合性チェックの経験を得た．</li>
+                      <li className="flex items-start ml-6">自分の頭の中で考えたことをコードに落とし込み，思い通りにデータを加工する難しさ・経験を得た．</li>
+                      <li className="flex items-start ml-6">ドメイン知識を駆使し，機械学習モデルにより多くの知識を与えるようなデータ分析・特徴量設計の経験を得た．</li>
+                  </div>
                 )}
               </div>
 
