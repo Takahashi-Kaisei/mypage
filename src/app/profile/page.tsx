@@ -29,16 +29,8 @@ export default function ProfilePage() {
         </div>
 
         <div className="p-6">
-          <div className="flex justify-between items-center mb-4">
             <h2 className="text-2xl font-bold">自己紹介</h2>
-            <button
-              onClick={() => toggleSection('intro')}
-              className="px-3 py-1 text-sm font-medium text-gray-700 bg-gray-200 rounded hover:bg-gray-300 dark:text-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600"
-            >
-              {openSections.intro ? '閉じる' : '開く'}
-            </button>
           </div>
-          {openSections.intro && (
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
                 <h3 className="text-lg font-semibold mb-2">名前</h3>
@@ -59,7 +51,6 @@ export default function ProfilePage() {
                 <p className="text-gray-700 dark:text-gray-300">Github : <a href="https://github.com/Takahashi-Kaisei" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Kaise</a></p>
               </div>
             </div>
-          )}
         </div>
 
         <div className="p-6">
