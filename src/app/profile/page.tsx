@@ -29,9 +29,7 @@ export default function ProfilePage() {
         </div>
 
         <div className="p-6">
-            <h2 className="text-2xl font-bold">自己紹介</h2>
-          </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="flex justify-between items-center mb-4"> <h2 className="text-2xl font-bold">自己紹介</h2> </div>
               <div>
                 <h3 className="text-lg font-semibold mb-2">名前</h3>
                 <p className="text-gray-700 dark:text-gray-300">高橋 快成</p>
@@ -50,7 +48,6 @@ export default function ProfilePage() {
                 <p className="text-gray-700 dark:text-gray-300">X : <a href="https://x.com/kai_ds04" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">kai_ds04</a></p>
                 <p className="text-gray-700 dark:text-gray-300">Github : <a href="https://github.com/Takahashi-Kaisei" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Kaise</a></p>
               </div>
-            </div>
         </div>
 
         <div className="p-6">
