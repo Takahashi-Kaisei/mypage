@@ -103,21 +103,21 @@ export default function ProfilePage() {
             <h2 className="text-2xl font-bold">経歴</h2>
             <div className="space-y-6">
               <div>
-                <div className="flex justify-between items-start mb-1">
+                {/* <div className="flex justify-between items-start mb-1"> */}
                   <div className="flex justify-between items-center mb-4">
                     <h3 className="text-lg font-semibold">某スポーツデータ分析会社</h3>
                     <span className="text-sm text-gray-700 dark:text-gray-300">2024年4月 - 現在</span>
-                    <button
-                    onClick={() => toggleSection('career_1')}
-                    className="px-3 py-1 text-sm font-medium text-gray-700 bg-gray-200 rounded hover:bg-gray-300 dark:text-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600"
-                    >
-                      {openSections.career_1 ? 'しまう' : '詳細'}
-                    </button>
-                  </div>
+                  {/* </div> */}
                 </div>
                 <p className="text-gray-700 dark:text-gray-300">
                   データ抽出，加工，分析，機械学習モデルの開発を行う．
                 </p>
+                <button
+                    onClick={() => toggleSection('career_1')}
+                    className="px-3 py-1 text-sm font-medium text-gray-700 bg-gray-200 rounded hover:bg-gray-300 dark:text-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600"
+                    >
+                      {openSections.career_1 ? 'しまう' : '詳細'}
+                  </button>
                 {openSections.career_1 && (
                   <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-1">
                     <li className="flex items-start">SQLを用いて，データベースからのデータ抽出を行う．</li>
