@@ -99,16 +99,7 @@ export default function ProfilePage() {
         </div>
 
         <div className="p-6">
-          <div className="flex justify-between items-center mb-4">
             <h2 className="text-2xl font-bold">経歴</h2>
-            <button
-              onClick={() => toggleSection('career')}
-              className="px-3 py-1 text-sm font-medium text-gray-700 bg-gray-200 rounded hover:bg-gray-300 dark:text-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600"
-            >
-              {openSections.career ? '閉じる' : '開く'}
-            </button>
-          </div>
-          {openSections.career && (
             <div className="space-y-6">
               <div>
                 <div className="flex justify-between items-start mb-1">
@@ -212,7 +203,6 @@ export default function ProfilePage() {
                 </p>
               </div>
             </div>
-          )}
         </div>
 
         <div className="p-6">
