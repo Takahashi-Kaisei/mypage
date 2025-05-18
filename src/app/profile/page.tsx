@@ -20,32 +20,34 @@ export default function ProfilePage() {
 
   return (
     <RootLayout>
-      <div className="mb-8">
-        <h1 className="text-3xl font-bold mb-2">プロフィール</h1>
-        <p className="text-gray-700 dark:text-gray-300">
-          経歴，学歴，スキルセットなど ~最終更新：2025年5月11日~
-        </p>
-      </div>
-      <div className="p-6">
-          <h2 className="text-2xl font-bold">自己紹介</h2>
-      </div>
-      <div>
-        <h3 className="text-lg font-semibold mb-2">名前</h3>
-        <p className="text-gray-700 dark:text-gray-300">高橋 快成</p>
-      </div>
-      <div>
-        <h3 className="text-lg font-semibold mb-2">志望</h3>
-        <p className="text-gray-700 dark:text-gray-300">データサイエンティスト / スポーツデータサイエンティスト / MLエンジニア</p>
-      </div>
-      <div>
-        <h3 className="text-lg font-semibold mb-2">所属</h3>
-        <p className="text-gray-700 dark:text-gray-300">武蔵野大学 データサイエンス学部 B3</p>
-      </div>
-      <div>
-        <h3 className="text-lg font-semibold mb-2">連絡</h3>
-        <p className="text-gray-700 dark:text-gray-300">就活用email : kaisei22037@gmail.com</p>
-        <p className="text-gray-700 dark:text-gray-300">X : <a href="https://x.com/kai_ds04" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">kai_ds04</a></p>
-        <p className="text-gray-700 dark:text-gray-300">Github : <a href="https://github.com/Takahashi-Kaisei" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Kaise</a></p>
+      <div className="max-w-4xl mx-auto">
+        <div className="mb-8">
+          <h1 className="text-3xl font-bold mb-2">プロフィール</h1>
+          <p className="text-gray-700 dark:text-gray-300">
+            経歴，学歴，スキルセットなど ~最終更新：2025年5月11日~
+          </p>
+        </div>
+        <div className="p-6">
+            <h2 className="text-2xl font-bold">自己紹介</h2>
+        </div>
+        <div>
+          <h3 className="text-lg font-semibold mb-2">名前</h3>
+          <p className="text-gray-700 dark:text-gray-300">高橋 快成</p>
+        </div>
+        <div>
+          <h3 className="text-lg font-semibold mb-2">志望</h3>
+          <p className="text-gray-700 dark:text-gray-300">データサイエンティスト / スポーツデータサイエンティスト / MLエンジニア</p>
+        </div>
+        <div>
+          <h3 className="text-lg font-semibold mb-2">所属</h3>
+          <p className="text-gray-700 dark:text-gray-300">武蔵野大学 データサイエンス学部 B3</p>
+        </div>
+        <div>
+          <h3 className="text-lg font-semibold mb-2">連絡</h3>
+          <p className="text-gray-700 dark:text-gray-300">就活用email : kaisei22037@gmail.com</p>
+          <p className="text-gray-700 dark:text-gray-300">X : <a href="https://x.com/kai_ds04" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">kai_ds04</a></p>
+          <p className="text-gray-700 dark:text-gray-300">Github : <a href="https://github.com/Takahashi-Kaisei" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Kaise</a></p>
+        </div>
       </div>
 
 
