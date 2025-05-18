@@ -9,7 +9,7 @@ export default function ProfilePage() {
     skills: true,
     career: true,
     education: true,
-    career_1: true
+    career_1: false
   });
 
   const toggleSection = (section: keyof typeof openSections) => {
