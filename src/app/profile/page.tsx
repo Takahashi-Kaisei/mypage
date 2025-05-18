@@ -118,7 +118,7 @@ export default function ProfilePage() {
                 <p className="text-gray-700 dark:text-gray-300">
                   データ抽出，加工，分析，機械学習モデルの開発を行う．
                 </p>
-                {openSections.skills && (
+                {openSections.career_1 && (
                   <li>開けた</li>
                 )}
               </div>
