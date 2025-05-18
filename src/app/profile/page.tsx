@@ -8,7 +8,8 @@ export default function ProfilePage() {
     intro: true,
     skills: true,
     career: true,
-    education: true
+    education: true,
+    career_1: true
   });
 
   const toggleSection = (section: keyof typeof openSections) => {
@@ -103,12 +104,23 @@ export default function ProfilePage() {
             <div className="space-y-6">
               <div>
                 <div className="flex justify-between items-start mb-1">
-                  <h3 className="text-lg font-semibold">某スポーツデータ分析会社</h3>
-                  <span className="text-sm text-gray-700 dark:text-gray-300">2024年4月 - 現在</span>
+                  <div className="flex justify-between items-center mb-4">
+                    <h3 className="text-lg font-semibold">某スポーツデータ分析会社</h3>
+                    <span className="text-sm text-gray-700 dark:text-gray-300">2024年4月 - 現在</span>
+                    <button
+                    onClick={() => toggleSection('career_1')}
+                    className="px-3 py-1 text-sm font-medium text-gray-700 bg-gray-200 rounded hover:bg-gray-300 dark:text-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600"
+                    >
+                      {openSections.career_1 ? '閉じる' : '開く'}
+                    </button>
+                  </div>
                 </div>
                 <p className="text-gray-700 dark:text-gray-300">
                   データ抽出，加工，分析，機械学習モデルの開発を行う．
                 </p>
+                {openSections.skills && (
+                  <li>開けた</li>
+                )}
               </div>
 
               <div>
