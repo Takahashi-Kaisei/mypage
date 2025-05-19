@@ -9,7 +9,8 @@ export default function ProfilePage() {
     skills: true,
     career: true,
     education: true,
-    career_1: false
+    career_1: false,
+    career_x: false
   });
 
   const toggleSection = (section: keyof typeof openSections) => {
@@ -103,22 +104,20 @@ export default function ProfilePage() {
             <h2 className="text-2xl font-bold">経歴</h2>
             <div className="space-y-6">
               <div>
-                {/* <div className="flex justify-between items-start mb-1"> */}
                   <div className="flex justify-between items-center mb-4">
                     <h3 className="text-lg font-semibold">某スポーツデータ分析会社</h3>
                     <span className="text-sm text-gray-700 dark:text-gray-300">2024年4月 - 現在</span>
-                  {/* </div> */}
                 </div>
                 <p className="text-gray-700 dark:text-gray-300">
                   データ抽出，加工，分析，機械学習モデルの開発を行う．
                 </p>
                 <button
-                    onClick={() => toggleSection('career_1')}
+                    onClick={() => toggleSection('career_x')}
                     className="px-3 py-1 text-sm font-medium text-gray-700 bg-gray-200 rounded hover:bg-gray-300 dark:text-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600"
                     >
-                      {openSections.career_1 ? 'しまう' : '詳細'}
+                      {openSections.career_x ? 'しまう' : '詳細'}
                   </button>
-                {openSections.career_1 && (
+                {openSections.career_x && (
                   <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-1">
                     <li className="flex items-start">SQLを用いて，データベースからのデータ抽出を行う．</li>
                     <li className="flex items-start">pythonを用いて，データ加工，分析，機械学習モデルの開発を行う．</li>
@@ -208,10 +207,11 @@ export default function ProfilePage() {
                 </p>
               </div>
 
+
               <div>
-                <div className="flex justify-between items-start mb-1">
-                  <h3 className="text-lg font-semibold">未来創造PJ成果発表会 学科賞</h3>
-                  <span className="text-sm text-gray-700 dark:text-gray-300">2024年2月</span>
+                  <div className="flex justify-between items-center mb-4">
+                    <h3 className="text-lg font-semibold">未来創造PJ成果発表会 学科賞</h3>
+                    <span className="text-sm text-gray-700 dark:text-gray-300">2024年2月</span>
                 </div>
                 <p className="text-gray-700 dark:text-gray-300">
                 「MLBレギュラーシーズンのデータから見る今後の戦術トレンドや重要指標」</p>
@@ -219,7 +219,56 @@ export default function ProfilePage() {
                 <p className="text-gray-700 dark:text-gray-300">
                   <a href="https://www.musashino-u.ac.jp/academics/faculty/data_science/data_science/features.html" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">未来創造PJ詳細</a>
                 </p>
+                <button
+                    onClick={() => toggleSection('career_1')}
+                    className="px-3 py-1 text-sm font-medium text-gray-700 bg-gray-200 rounded hover:bg-gray-300 dark:text-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600"
+                    >
+                      {openSections.career_1 ? 'しまう' : '詳細'}
+                  </button>
+                {openSections.career_1 && (
+                  <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-1">
+                    <li className="flex items-start">自分の発表テーマ：「欠損値処理をなんとなくでやりたくない」</li>
+                    <li className="flex items-start">発表者：5人</li>
+                    <li className="flex items-start">参加したことによるリターンやできたこと．</li>
+                      <li className="flex items-start ml-6">人に発表するために資料を作成することで，自分の知識の定着・整理をすることができた．</li>
+                      <li className="flex items-start ml-6">自分で勉強をするだけでは得られない気づきや，知識の隙を発見する事ができた．</li>
+                      <li className="flex items-start ml-6">まともに回答できなかったが，質問に対応するという初の経験を得た．</li>
+                  </ul>
+                )}
               </div>
+
+              <div>
+                  <div className="flex justify-between items-center mb-4">
+                    <h3 className="text-lg font-semibold">第二回LT会 参加</h3>
+                    <span className="text-sm text-gray-700 dark:text-gray-300">2023年12月21日</span>
+                </div>
+                <p className="text-gray-700 dark:text-gray-300">
+                  学内サークルにて行われたLT会に参加した．
+                </p>
+                <button
+                    onClick={() => toggleSection('career_1')}
+                    className="px-3 py-1 text-sm font-medium text-gray-700 bg-gray-200 rounded hover:bg-gray-300 dark:text-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600"
+                    >
+                      {openSections.career_1 ? 'しまう' : '詳細'}
+                  </button>
+                {openSections.career_1 && (
+                  <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-1">
+                    <li className="items-start">自分の発表テーマ：「欠損値処理をなんとなくでやりたくない」</li>
+                    <li className="items-start">発表者：5人</li>
+                    <li className="items-start">参加したことによるリターンやできたこと．</li>
+                      <li className="ml-6">人に発表するために資料を作成することで，自分の知識の定着・整理をすることができた．</li>
+                      <li className="ml-6">自分で勉強をするだけでは得られない気づきや，知識の隙を発見する事ができた．</li>
+                      <li className="ml-6">まともに回答できなかったが，質問に対応するという初の経験を得た．</li>
+                  </ul>
+                )}
+              </div>
+
+
+
+
+
+
+
             </div>
         </div>
 
