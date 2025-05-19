@@ -68,6 +68,8 @@
                     ->評価指標を提案している論文から評価指標の評価を参考にすることができた．
                     - パラメータの決定が手動になってしまった．
                     ->従来の指標でパラメータの決定は，得点期待値ベースで行われていて，それが広く使われているので，その方法を踏襲するべきであった．
+
+
         - 大規模言語モデル講座
             - 大規模言語モデルについて，事前学習の知識から事後学習までの各手法の概要を知る程度に広く浅く学んだ．
                 - ここでLLMについて学んだことで，自分のAIについての知識を加速度的に成長させ，昨今のAI技術をキャッチアップできるようになった．
@@ -102,6 +104,9 @@
                 - 主催・参加したことによるリターンやできたこと．
                     - 興味分野を通して横の繋がりを深めることができた．
                     - 今後開催する勉強会，LT会の敷居を下げることができた．
+
+
+
         - aihack
             - 【アイフルグループ】第9回大学生向けハッカソン『aihack（アイハック）』にて優秀賞(2位)を受賞した．
                 - 具体的な内容
@@ -162,3 +167,26 @@
 3. GitHub→デモ→記事の深掘り動線がある
 4. 更新日を明記している
 5. モバイルでもレイアウトが崩れない
+
+              <div>
+                  <div className="flex justify-between items-center mb-4">
+                    <h3 className="text-lg font-semibold">タイトル</h3>
+                    <span className="text-sm text-gray-700 dark:text-gray-300">年月日</span>
+                </div>
+                <p className="text-gray-700 dark:text-gray-300">
+                  概要
+                </p>
+                <button
+                    onClick={() => toggleSection('career_1')}
+                    className="px-3 py-1 text-sm font-medium text-gray-700 bg-gray-200 rounded hover:bg-gray-300 dark:text-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600"
+                    >
+                      {openSections.career_1 ? 'しまう' : '詳細'}
+                  </button>
+                {openSections.career_1 && (
+                  <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-1">
+                    <li></li>
+                      <li className="ml-6"></li>
+                      <li className="ml-12"></li>
+                  </ul>
+                )}
+              </div>
