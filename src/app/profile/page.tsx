@@ -227,12 +227,19 @@ export default function ProfilePage() {
                   </button>
                 {openSections.career_1 && (
                   <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-1">
-                    <li className="flex items-start">自分の発表テーマ：「欠損値処理をなんとなくでやりたくない」</li>
-                    <li className="flex items-start">発表者：5人</li>
-                    <li className="flex items-start">参加したことによるリターンやできたこと．</li>
-                      <li className="flex items-start ml-6">人に発表するために資料を作成することで，自分の知識の定着・整理をすることができた．</li>
-                      <li className="flex items-start ml-6">自分で勉強をするだけでは得られない気づきや，知識の隙を発見する事ができた．</li>
-                      <li className="flex items-start ml-6">まともに回答できなかったが，質問に対応するという初の経験を得た．</li>
+                    <li className="flex items-start">研究内容</li>
+                      <li className="ml-6">背景：野球は相手より多く得点を取るスポーツであり，そのために戦略を練り，試行する．戦略を練るのにあたり，近年ではセイバーメトリクスが台頭し，「犠打をするよりもホームランを狙った方が良い．」というような結論が導かれている．しかしWBC優勝国である日本では，まだまだ犠打を試行することが多い．果たして犠打は本当にナンセンスな戦略であるのだろうか．</li>
+                      <li className="ml-6">目的：各戦略・指標において，得点の寄与度合いを算出することで，真に得点に繋がる戦略を導く．</li>
+                      <li className="ml-6">提案手法：</li>
+                        <li className="ml-12">データ：MLB120年間の各指標[打席, 安打, 二塁打, 三塁打, 本塁打, 打点, 犠打, 四球, 死球, 三振, 盗塁, 残塁]の数を説明変数，得点数を目的変数とする．</li>
+                        <li className="ml-12">モデル：時系列モデル(VAR)を構築する．</li>
+                        <li className="ml-12">解釈手法：その時系列モデルの得点に対するインパルス応答を確認することで得点に寄与する指標を導く．</li>
+                      <li className="ml-6">結果：得点への正の影響が多かった順から，[犠打＞盗塁＞残塁＞本塁打＞死球＞三振＞二塁打＞三塁打＞四球＞...]という結果が得られた．</li>
+                      <li className="ml-6">考察：年ごとに集計すると，犠打が多くなると得点も多くなるという従来の考え方とは逆の結果が得られた</li>
+                        <li className="ml-12">→無駄な犠打が減ったことにより，得点が得られる確率が高い状況での犠打に絞られたことで，得点への影響は高く見積もられたのではないか．</li>
+                    <li className="flex items-start">反省点→改善・学び</li>
+                      <li className="ml-6">研究手順があやふやなまま始めてしまい．先行研究の調査もままならないまま研究を進めてしまった．</li>
+                        <li className="ml-12">→期限直前に，ちゃんと結果が出ないという問題が起きてしまった．しかし手元にある技術でなんとか実験を解釈しようともがいた事が非常に学びになった．</li>
                   </ul>
                 )}
               </div>
@@ -253,9 +260,9 @@ export default function ProfilePage() {
                   </button>
                 {openSections.career_1 && (
                   <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-1">
-                    <li className="items-start">自分の発表テーマ：「欠損値処理をなんとなくでやりたくない」</li>
-                    <li className="items-start">発表者：5人</li>
-                    <li className="items-start">参加したことによるリターンやできたこと．</li>
+                    <li>自分の発表テーマ：「欠損値処理をなんとなくでやりたくない」</li>
+                    <li>発表者：5人</li>
+                    <li>参加したことによるリターンやできたこと．</li>
                       <li className="ml-6">人に発表するために資料を作成することで，自分の知識の定着・整理をすることができた．</li>
                       <li className="ml-6">自分で勉強をするだけでは得られない気づきや，知識の隙を発見する事ができた．</li>
                       <li className="ml-6">まともに回答できなかったが，質問に対応するという初の経験を得た．</li>
