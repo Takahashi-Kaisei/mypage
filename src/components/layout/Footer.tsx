@@ -27,7 +27,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-gray-200 dark:border-gray-700 mt-6 pt-6 text-center text-gray-600 dark:text-gray-400 text-sm">
-          <p>© {currentYear} かいせのまとめサイト. All rights reserved.</p>
+          <p>© {currentYear} 高橋快成</p>
         </div>
       </div>
     </footer>
